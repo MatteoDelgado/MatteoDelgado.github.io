@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body{
+    background-color: #FFF3B0;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        height: 90px;
+        text-align: center;
+    }
+    .bio{
+        color: black;
+        position: relative;
+        top: 40px;
+    }
+    .links{
+        color: black;
+    }
+    .clubs{
+        color: black;
+    }
+    u{
+        color: blue;
+    }
+    .picture{
+        position: relative;
+        left: 240px;
+    }
+    .card-body{
+      background-color: rgb(112, 0, 0);
+      color: white;
+    }
+    .navbar{
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">Home</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Sciencefair.html">Academics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sports.html">Sports</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Recpies
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="recipe/recipe.html">HTML</a>
+              <a class="dropdown-item" href="recipe/Recipe2.html" target="_blank">CSS</a>
+              <a class="dropdown-item" href="recipe/recipe3.html" target="_blank">BS</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+        
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-6 bio">
+                <h2>Matteo Delgado</h2>
+                <p>Matteo Delgado was born december 12, 2009, is a freshmen student at Lane Technical Collage Prep. Matteo was born and raised in the city of Chicago where he currently lives with his Mexican mother. He has excelled in all years of middle school with A's and is a great learner. He currently is in the Alpha STEM Program where he is taking advanced classes. </p>
+            </div>
+       
+            <div class="col-md-6">
+                <img src="media/Bio picture.jpg" alt="Matteo Delgadao" width="200px" class="picture">
+            </div>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="media/academics.jpeg" height="260px" alt="academics image">
+              <div class="card-body">
+                <h4 class="card-title">Academics</h4>
+                <p class="card-text">To learn about matteo's science fair project and academics</p>
+                <a href="Sciencefair.html" class="btn btn-primary">click here!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="media/boxing1.jpeg" alt="Sports image">
+                <div class="card-body">
+                  <h4 class="card-title">Sports</h4>
+                  <p class="card-text">To learn about matteo's sports and extracurricular activities</p>
+                  <a href="sports.html" class="btn btn-primary">click here!</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            
+            <div class="col-md-4 clubs">
+                <h3 class="text-center">States I've been</h3>
+                <ul>
+                    <li>Illinos</li>
+                    <li>Flordia</li>
+                    <li>Arkansas</li>
+                </ul>
+            </div>
+            <div class="col-md-4 clubs">
+
+                    <h3 class="text-center">My skills</h3>
+                    <ul>
+                        <li>Problem solving</li>
+                        <li>Organization</li>
+                        <li>Adaptability</li>
+                    </ul>
+            </div>
+            <div class="col-md-4 clubs">
+                <h3 class="text-center"> School clubs</h3>
+                <ul>
+                    <li>Chess</li>
+                    <li>Dungeons & Dragons</li>
+                    <li>Boxing</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer">
+                    <h4>Contact</h4>
+                    <a href="mailto:mdelgado81@cps.edu" target="_blank"><u>Email</u></a>
+                    <p>773-943-2157</p>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html> 
